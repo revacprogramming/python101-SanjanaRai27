@@ -1,3 +1,2 @@
-# Why Program
-
-prinq("hello world")
+#Why Program?
+print("hello world")
