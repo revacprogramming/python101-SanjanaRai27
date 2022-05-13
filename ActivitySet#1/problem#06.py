@@ -1,16 +1,13 @@
-# Loops & Iterators
+hrs = input("Enter Hours:")
+h=float(hrs)
+rate=input("Enter Rate:")
+r=float(rate)
+def computepay(h,r):
+ if h<=40:
+   pay=h*r
+ elif h>40:
+   pay=(40*r+(h-40)*1.5*r)
+ return pay           
 
-largest = None
-smallest = None
-
-while True:
-    num = input("Enter a number? ")
-
-    if num == "done":
-        break
-
-    # ...
-
-    print(num)
-
-print("Maximum", largest)
+p = computepay(h,r)
+print("Pay", p)

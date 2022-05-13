@@ -2,7 +2,7 @@
 
 hrs = input("Enter Hours:")
 h = float(hrs)
-rate =input("Enter rate:")
+rate = input("Enter rate:")
 r = float(rate)
 
 if h<=40:

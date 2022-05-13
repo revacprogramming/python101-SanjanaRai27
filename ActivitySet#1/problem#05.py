@@ -6,7 +6,7 @@ y=float (score)
 if y>=1.0:
   print("Error")
     
-elif y=<0:
+elif y<=0:
   print("Error")
         
 elif y>=0.9:
