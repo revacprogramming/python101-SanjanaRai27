@@ -1,6 +1,6 @@
 #Conditional Execution
 
-score = input("Enter Score: ")
+ score = input("Enter Score: ")
 y=float (score)
 
 if y>=1.0:
