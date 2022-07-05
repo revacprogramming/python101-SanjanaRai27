@@ -3,7 +3,7 @@
 
 fname = input("Enter file name: ")
 fh = open(fname)
-count= 0
+Count= 0
 Total= 0
 
 for line in fh:
